@@ -63,7 +63,7 @@ export const categoryControlller = async (req, res) => {
     const category = await categoryModel.find({});
     res.status(200).send({
       success: true,
-      message: "All Categories List",
+      message: "All Departments List",
       category,
     });
   } catch (error) {
@@ -71,7 +71,7 @@ export const categoryControlller = async (req, res) => {
     res.status(500).send({
       success: false,
       error,
-      message: "Error while getting all categories",
+      message: "Error while getting all departments",
     });
   }
 };

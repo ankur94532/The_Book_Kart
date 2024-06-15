@@ -37,7 +37,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse col-xs-12" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand col-xs-12">
-              🛒 Ecommerce App
+              🛒 The Book-Kart App
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 col-xs-12">
               <SearchInput />
@@ -52,12 +52,12 @@ const Header = () => {
                   to={"/categories"}
                   data-bs-toggle="dropdown"
                 >
-                  Categories
+                  DEPARTMENTS
                 </Link>
                 <ul className="dropdown-menu col-xs-12">
                   <li>
                     <Link className="dropdown-item col-xs-12" to={"/categories"}>
-                      All Categories
+                      All Departments
                     </Link>
                   </li>
                   {categories?.map((c) => (

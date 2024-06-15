@@ -107,7 +107,7 @@ const HomePage = () => {
     }
   };
   return (
-    <Layout title={"ALl Products - Best offers "}>
+    <Layout title={"Available Books and Notes"}>
       {/* banner image */}
       <img
         src="/images/banner.png"
@@ -118,7 +118,7 @@ const HomePage = () => {
       {/* banner image */}
       <div className="container-fluid row mt-3 home-page col-xs-12">
         <div className="col-md-3 filters col-xs-12">
-          <h4 className="text-center col-xs-12">Filter By Category</h4>
+          <h4 className="text-center col-xs-12">Filter By Department</h4>
           <div className="d-flex flex-column col-xs-12">
             {categories?.map((c) => (
               <Checkbox

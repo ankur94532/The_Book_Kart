@@ -61,7 +61,7 @@ const ProductDetails = () => {
               currency: "USD",
             })}
           </h6>
-          <h6>Category : {product?.category?.name}</h6>
+          <h6>Department : {product?.category?.name}</h6>
           <button class="btn btn-secondary ms-1 col-xs-12">ADD TO CART</button>
         </div>
       </div>
