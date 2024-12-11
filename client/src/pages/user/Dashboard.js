@@ -6,7 +6,7 @@ const Dashboard = () => {
   const [auth] = useAuth();
   return (
     <Layout title={"Dashboard -The Book-Kart App"}>
-      <div className="container-flui m-3 p-3 dashboard col-xs-12">
+      <div className="container-fluid m-3 p-3 dashboard col-xs-12">
         <div className="row col-xs-12">
           <div className="col-md-3 col-xs-12">
             <UserMenu />
